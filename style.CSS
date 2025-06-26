@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background-color: yellow;
+  margin: 0px;
+  padding: 0px;
+} */
+.heading {
+  background: rgb(23, 23, 110);
+  width: 100%;
+  height: 70px;
+}
+.home-section {
+  background-color: brown;
+  z-index: 1000;
+}
+.nav-bar {
+  display: flex;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  display: inline;
+}
+.btn-asd {
+  border: none;
+  border-radius: 40px;
+  width: 400px;
+  height: 45px;
+  position: relative;
+  top: 150px;
+  left: 35%;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul > li {
+  list-style: none;
+}
+ul > li,
+a {
+  color: white;
+  display: inline;
+  padding: 8px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+.general {
+  background-image: url("bondi-beach-australia.jpg");
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+}
+h1 {
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+.asd {
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  padding-left: 10px;
+}
+.form {
+  background: blue;
+  width: 100%;
+  height: 100px;
+}
+
+label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
+  position: relative;
+  margin: 0px;
+  top: 30px;
+  left: 17%;
+}
+.form > label,
+.input-top {
+  position: relative;
+  margin: 0px;
+  top: 30px;
+  left: 20%;
+}
+.btn-form {
+  position: relative;
+  margin: 0px;
+  top: 30px;
+  left: 20%;
+  border: none;
+  background: red;
+  width: 100px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.input-top {
+  display: inline;
+  width: 250px;
+  height: 40px;
+}
+
+.destination {
+  background-color: rgb(215, 214, 214);
+  width: 100%;
+  height: 130px;
+}
+.destination-box > h2,
+.dest-p {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50px;
+}
+
+.destination-box > h2 {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.destination-box > p {
+  font-size: 0.9em;
+}
+
+.destination-image {
+  background: rgb(215, 214, 214);
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+.dubai {
+  background-image: url("image\ 1.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin-left: 30px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: rgb(215, 214, 214);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.thailand {
+  background-image: url("image\ 2.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin-left: 30px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.neitherland {
+  background-image: url("image\ 3.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin-left: 30px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-more {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(215, 214, 214);
+  padding: 20px;
+}
+.btn-main {
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 300px;
+  font-size: 1.1em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.image-item {
+  width: 10px;
+  height: 10px;
+}
+.image-section {
+  background-color: darkgreen;
+}
+
+.newsletter {
+  background: darkblue;
+  display: flex;
+  width: 100%;
+  height: 150px;
+}
+.newsletter {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+}
+.sub-head,
+.sub-page {
+  position: relative;
+  display: flex;
+  top: 40%;
+  left: 80%;
+  color: white;
+}
+.sub-btn {
+  position: relative;
+  top: 40%;
+  left: 30%;
+}
+.search-news {
+  border: none;
+  width: 330px;
+  height: 50px;
+}
+.sub-bn {
+  border: none;
+  width: 110px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-weight: 700;
+}
+.video-display {
+  background-color: white;
+}
+.video-display > iframe {
+  width: 90%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+}
+.available {
+  background: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150px;
+}
+
+.avail-detail {
+  color: white;
+  position: relative;
+  margin: auto;
+  color: black;
+}
+
+.avail-detail > h3 {
+  font-size: 1.5em;
+  color: blue;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.recent-trips {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.recent-image {
+  width: 200px;
+  height: 200px;
+}
+.contact-box {
+  background-color: darkblue;
+  width: 100%;
+  height: 450px;
+}
+
+.contact-us {
+  position: relative;
+  justify-content: center;
+  display: flex;
+
+  margin: 20px;
+}
+.contact-us > input {
+  border: none;
+  width: 600px;
+  height: 50px;
+}
+
+.contact-us > .dst {
+  border: none;
+  width: 600px;
+  height: 150px;
+}
+
+.btn-contact {
+  background-color: darkred;
+}
+
+.cont-page {
+  color: white;
+  position: relative;
+  top: 40%;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.contact-us > button {
+  border: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.3em;
+}
